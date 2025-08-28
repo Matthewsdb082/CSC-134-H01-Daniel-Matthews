@@ -11,7 +11,7 @@ using namespace std;
 //define the main()
 int main()
 {
-    int num1 =420;
+    int num1 =96969696;
     int num2 =10;
     int product = num1 * num2;
 //this prints out the product of the two number from above
