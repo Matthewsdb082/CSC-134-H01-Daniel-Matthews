@@ -6,7 +6,7 @@
 using namespace std;
 
 int main()
-{
+{ // count << "insert message to consule u want" << endl;
     cout << "Favorite Movie: Quigley Down Under"<< endl;
     cout << "Favorite Character: Matthew Quigley" << endl;
     return 0;

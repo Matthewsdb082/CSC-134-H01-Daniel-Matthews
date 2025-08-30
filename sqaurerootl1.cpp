@@ -9,7 +9,7 @@ using namespace std;
 //define the main()
 int main()
 {
-
+// the maths
   double num = 25.0;
   int results = sqrt(num);
 
