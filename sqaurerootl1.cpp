@@ -1,6 +1,8 @@
 //daniel matthews csc134
 //8/29/2025
 // square root calculator for lab 1
+
+// directives
 #include <iostream>
 #include <cmath> 
 //use the standard namespace
