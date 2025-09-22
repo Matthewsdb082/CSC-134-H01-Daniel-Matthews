@@ -1,6 +1,6 @@
-//
-//
-//
+//daniel matthews
+//9/21/25
+//while grade avger
 
 #include <iostream>
 using namespace std;
@@ -20,7 +20,7 @@ int main()
         total += grade;  
         count++; // increment counter
     }
-  // calculate average AFTER loop
+//avg and output
     avg = total / 10;    
     cout << "Test average: " << avg << endl;
 

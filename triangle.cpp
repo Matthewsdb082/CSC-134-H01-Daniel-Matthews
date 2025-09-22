@@ -25,7 +25,8 @@ const double PI = 3.141592653589793;
     // check if it's a 3-4-5 triangle
     if (abs(theta_degrees - 53.13) < 0.01) { // allow small rounding error
         cout << "This is a 3-4-5 triangle" << endl;
-    } else {
+    } else 
+    {// if its not a 3 4 5
         cout << "This is NOT a 3-4-5 triangle" << endl;
     }
 
