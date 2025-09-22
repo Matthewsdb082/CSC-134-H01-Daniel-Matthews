@@ -10,12 +10,8 @@ int main()
  
     while(true) 
     {
-     cout<<"1"<<endl;
-cout<<"0"<<endl;
-cout<<"1"<<endl;
-cout<<"0"<<endl;
-cout<<"1"<<endl;
-cout<<"1"<<endl;
+     cout<<"This is infinite\n" <<endl;
+
     }
     return 0;
 }
