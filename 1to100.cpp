@@ -2,7 +2,7 @@
 //9/21/25
 //counter to 100
 
-
+/*
 #include <iostream>
 using namespace std;
 
@@ -23,3 +23,4 @@ cout<< "I counted 1 to 100"<< endl;
 return 0;
 
 }
+*/

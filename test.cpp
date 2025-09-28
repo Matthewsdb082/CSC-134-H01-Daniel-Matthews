@@ -6,15 +6,12 @@ using namespace std;
 
 int main()
 {
-    int length, width, area;
-
-    cout << "This program calculates the area of a ";
-    cout << "rectangle.\n";
-    cout << "Enter the length and width of the rectangle ";
-    cout << "separated by a space.\n";
-    cin >> length >> width;
-    area = length * width;
-    cout << "The area of the rectangle is " << area << endl;
+   int x=5;
+   if (x % 2==0)
+        cout<<"this";
+        else
+        cout<<"that"<<endl;
+cout<<"this";
     
     return 0;
 }
