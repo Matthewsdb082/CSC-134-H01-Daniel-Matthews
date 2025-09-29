@@ -7,12 +7,11 @@ using namespace std;
 
 int main()
 {
-    int index=100;
-
- for(index=100;index>=0;index--)
+int in = 0;
+cout<<"input how many iteration u want to run"<<endl;
+cin>>in;
+for(int count=0;count<in;count++)
 {
-    cout<<"count#"<<index<<endl;
-
+cout<<"iterations: "<<count<<endl;
 }
-    return 0;
 }
