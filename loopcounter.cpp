@@ -7,9 +7,9 @@ using namespace std;
 int main()
 {
     int index;
-
- for(index=0;index>10;index++)
-{
+// loop for counter
+ for(index=0;index<=10;index++)
+{//print console
     cout<<"count#"<<index<<endl;
 
 }

@@ -11,10 +11,11 @@ int main()
     int adder = 10;
     int count = 0;
 // loop runingtotal and adder
-    for(count=0;count<=50;count++)
+    for(count=1;count<=50;count++)
     {
     sumOP=sumOP+adder;
-    cout<<count<<"|"<<sumOP<<endl;
+    
     }
+    cout<<count-1<<"|"<<sumOP<<endl;
     return 0;
 }
