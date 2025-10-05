@@ -1,26 +1,21 @@
- #include <iostream>
-#include <cstdlib> // Required for rand()
-#include <ctime>
+#include <iostream>
 using namespace std;
-  
+
 int main() {
-int i = 0;
-int in = 0;
-int randomNumber;
-cout<<"input how many timews u wish to roll the dice"<<endl;
-cin>>in;
-//float randomNumber;
-srand(time(0));
-    for(i=0;i<=in;i++)
-    {
-    
+    int size;
+    cout << "Enter the size of the chessboard: ";
+    cin >> size;
 
-     randomNumber = 1 + rand() %  6;
-
-   
+    for (int row = 0; row < size; ++row) {
+        for (int col = 0; col < size; ++col) {
+            // Alternate between asterisk and space
+            if ((row + col) % 2 == 0)
+                cout << "*";
+            else
+                cout << " ";
+        }
+        cout << endl; // Move to the next line after each row
     }
-         cout << "Random number: " << randomNumber << endl;
 
     return 0;
 }
-
