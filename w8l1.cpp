@@ -8,8 +8,10 @@ using namespace std;
 //define the main()
 int main()
 {
+    //open file
 ofstream outFile;
  outFile.open("lab1.txt");
+ //prints to file
  outFile << "Bourne Identity"<<endl;
  outFile <<"Star Wars Episode IV"<<endl;
  outFile <<"The Hunger Games"<<endl;
@@ -17,5 +19,7 @@ ofstream outFile;
  outFile <<"X-Men First Class"<<endl;
  outFile << "Star Wars Espisode V"<<endl;
  outFile << "Get Out"<<endl;
+ //closed file
+ outFile.close();
  return 0;
 }
