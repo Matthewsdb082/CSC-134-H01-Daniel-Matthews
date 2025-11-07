@@ -1,6 +1,6 @@
 //daniel matthews
 //10/31/25
-//
+// credit card verivifer
 #include <iostream>
 #include <sstream>
 #include <algorithm>
@@ -10,7 +10,7 @@ int main()
 {
  // srtings arrays and variables
 int ccarray[17];
-string creditnum = "340000000000009";
+string creditnum = "5454545454545474";
 string NN;
 string x;
 int y;

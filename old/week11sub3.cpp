@@ -1,6 +1,6 @@
 //daniel matthews
 //10/9/25
-// infile sumer
+// infile sum adder
 
 #include <iostream> 
 #include <fstream>
@@ -9,25 +9,21 @@ using namespace std;
 
 //define the main()
 int main()
-{
+{//var file array
     ofstream outFile;
     ifstream inFile;
  inFile.open("sales.txt");
- 
-
 int sum = 0;
 const int LOL = 5;
-
-cout<<"how long is the list\n";
- 
  double list[LOL];
- //count compare to input
+
+ //flips through index adds to sum
 for (int count =0 ; count <5;count++)
 {
 inFile>>list[count];
 sum= sum+list[count];
 }
-
+// cout sum total.
 cout<<"the total sales is:"<<sum;
 
 //close file
