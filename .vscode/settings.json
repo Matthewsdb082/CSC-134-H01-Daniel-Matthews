@@ -5,6 +5,7 @@
         "xstring": "cpp",
         "fstream": "cpp",
         "iosfwd": "cpp",
-        "xlocale": "cpp"
+        "xlocale": "cpp",
+        "xutility": "cpp"
     }
 }
