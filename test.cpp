@@ -1,22 +1,17 @@
-//daniel matthews
-//10/31/25
-// credit card verivifer
-#include <iostream>
-#include <sstream>
-#include <algorithm>
-#include <string>
+#include <iostream> 
 using namespace std;
+
+//define the main()
 int main()
 {
-const int SIZE = 5;
-int array[SIZE]={1,1,1,1,1,};
-int count = 0;
-int biggest = 0 ;
-int input = 0;
+for(int A = 0 ;A<=4;A)
+{
 
-
-
-int count= .length(array[]);
-
-    return 0;
+A++;
+cout<<A<<endl;
+A++;
+cout<<A<<endl;
+A++;
+cout<<A++<<endl;
+}
 }
